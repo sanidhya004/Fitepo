@@ -40,7 +40,7 @@ const columns = [
       key: '1',
       name: 'John Brown',
       age: 32,
-      address: 'New York No. 1 Lake Park',
+      price: '34$',
       tags: ['nice', 'developer'],
       stock:14,
     },
@@ -48,7 +48,7 @@ const columns = [
       key: '2',
       name: 'Jim Green',
       age: 42,
-      address: 'London No. 1 Lake Park',
+      price: '56$',
       tags: ['loser'],
       stock:18,
     },
@@ -56,7 +56,7 @@ const columns = [
       key: '3',
       name: 'Joe Black',
       age: 32,
-      address: 'Sydney No. 1 Lake Park',
+      price: '78$',
       tags: ['cool', 'teacher'],
       stock:34,
     },
@@ -68,29 +68,21 @@ const TableCont = () => {
         <h1>Product Sell</h1>
         <div className="table_right">
         <Select
-      defaultValue="lucy"
+      defaultValue="Last 30 days"
       style={{
         width: 120,
       }}
      
       options={[
         {
-          value: 'jack',
-          label: 'Jack',
+          value: 30,
+          label: 'Last 30 Days',
         },
         {
-          value: 'lucy',
-          label: 'Lucy',
+          value: 60,
+          label: 'Last 60 months',
         },
-        {
-          value: 'Yiminghe',
-          label: 'yiminghe',
-        },
-        {
-          value: 'disabled',
-          label: 'Disabled',
-          disabled: true,
-        },
+       
       ]}
     />
       <Input size="small" placeholder="Search" prefix={<SearchOutlined />}  />

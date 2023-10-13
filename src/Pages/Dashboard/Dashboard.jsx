@@ -1,6 +1,6 @@
 import Sidenav from "../../Components/Sidenav/Sidenav";
 import "./Dashboard.css";
-import { SearchOutlined,AlignLeftOutlined  } from '@ant-design/icons';
+import { SearchOutlined,AlignLeftOutlined,RightOutlined  } from '@ant-design/icons';
 
 import { Input } from 'antd';
 
@@ -39,8 +39,8 @@ const Dashboard = () => {
         <div className="title">
           <p>Dashboard</p>
         </div>
-        <div className="toggle_options bg">Dashboard</div>
-        <div className="toggle_options">Product</div>
+        <div className="toggle_options bg"><p>Dashboard</p> </div>
+        <div className="toggle_options">Product <RightOutlined /></div>
         <div className="toggle_options">Customer</div>
         <div className="toggle_options">Incomes</div>
         <div className="toggle_options">Promote</div>
