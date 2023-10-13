@@ -1,0 +1,47 @@
+.upper_card{
+    min-height: 180px;
+    min-width: 260px; 
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+  
+}
+.upper_card img{
+     height: 100px;
+     width: 100px;
+   
+     border-radius: 100px;
+}
+.img_wrapper{
+     width: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    
+}
+.text_wrapper p{
+     margin-bottom: 2px;
+     margin-top: 0px;
+}
+.text_1{
+    color:#b8b8b9;
+    font-weight: bolder;
+}
+.text_2{
+    margin-top: 0px;
+   font-size: x-large;
+    font-weight: bolder;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    
+    .upper_stat{ 
+        display: flex;
+        flex-wrap: nowrap;
+       overflow-y: hidden;
+        overflow-x: scroll;
+        
+     }
+  }

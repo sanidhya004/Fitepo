@@ -1,0 +1,25 @@
+.monthlystat_wrapper{
+    
+    height: 400px;
+    width: 680px;
+}
+.monthlystat{
+     height: 90%;
+     width: 90%;
+    padding: 10px;
+     background-color: white;
+     border-radius: 10px;
+}
+.monthlystat h1{
+     margin-bottom: -10px;
+}
+.monthlystat p{
+    color:rgb(202,202,203)
+  }
+.bargraph{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

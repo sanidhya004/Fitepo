@@ -1,0 +1,118 @@
+.dashboard_container {
+  background-color: #f4f7f8;
+  min-height: 100vh;
+  font-family: "Josefin Sans", sans-serif;
+}
+.sidenav {
+  min-height: 100vh;
+  background-color: #050441;
+  font-family: "Josefin Sans", sans-serif;
+ 
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-left: 13px;
+  padding-right: 23px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  font-size: 2vw;
+  width: 100%;
+  padding-left: 10px;
+
+  color: rgb(222, 220, 231);
+  font-weight: bolder;
+}
+.sidenav .toggle_options {
+  color: #dedce7;
+  list-style: none;
+  background-color: inherit;
+  cursor: pointer;
+  font-size: .8vw;
+  margin: 0 auto;
+ font-weight: 600;
+  padding: 1vw;
+  border-radius: 4px;
+}
+.sidenav .toggle_options:hover {
+  background-color: rgb(45, 45, 105);
+}
+.sidenav .toggle {
+  width: 100%;
+  margin: 0 auto;
+}
+.toggle_options {
+  background-color: white;
+  width: 80%;
+}
+.bg{
+  background-color: rgb(45, 45, 105);
+}
+.user_info {
+  background-color: rgb(45, 45, 105);
+  display: flex;
+  width: 90%;
+  margin: 9px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 4px;
+  margin-bottom: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  font-size: .7vw;
+  border-radius: 10px;
+}
+.user_info .helper_text {
+  color: rgb(175, 175, 197);
+}
+.name_wrapper {
+  text-align: left;
+}
+
+.img_wrapper img {
+  height: 2vw;
+  width: 2vw;
+  border-radius: 100%;
+  object-fit: cover;
+}
+.hidden {
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .sidenav .toggle_options {
+    font-size: 5vw;
+    margin-bottom: 29px;
+    padding: 10px;
+  }
+  .title {
+    font-size: 10vw;
+  }
+  .sidenav {
+    justify-content: flex-end;
+    width: 70%;
+    flex-direction: column-reverse;
+     
+  }
+ 
+  .user_info {
+    font-size: 2vw;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  .img_wrapper img {
+    height: 12vw;
+    width: 12vw;
+  }
+  .name_wrapper {
+    text-align: left;
+  }
+}
+.css-1hskriy {
+  background-color: transparent;
+}
