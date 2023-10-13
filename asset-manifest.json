@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Fitepo/static/css/main.2b841421.css",
-    "main.js": "/Fitepo/static/js/main.0be994f2.js",
+    "main.css": "/Fitepo/static/css/main.6f72065c.css",
+    "main.js": "/Fitepo/static/js/main.ec015d50.js",
     "index.html": "/Fitepo/index.html",
-    "main.2b841421.css.map": "/Fitepo/static/css/main.2b841421.css.map",
-    "main.0be994f2.js.map": "/Fitepo/static/js/main.0be994f2.js.map"
+    "main.6f72065c.css.map": "/Fitepo/static/css/main.6f72065c.css.map",
+    "main.ec015d50.js.map": "/Fitepo/static/js/main.ec015d50.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b841421.css",
-    "static/js/main.0be994f2.js"
+    "static/css/main.6f72065c.css",
+    "static/js/main.ec015d50.js"
   ]
 }
