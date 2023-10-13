@@ -23,7 +23,7 @@ const columns = [
     },
     {
       title: 'Price',
-      dataIndex: 'address',
+      dataIndex: 'price',
       key: 'address',
     },
   
